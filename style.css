@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --main-background:hsl(233, 47%, 7%);
+    --card-background:hsl(244, 38%, 16%);
+    --acent:hsl(277, 64%, 61%);
+    --main-heading:hsl(0, 0%, 100%)
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-background);
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+body{
+    height: 850PX;
+    display: flex;
+    text-align: center;
+}
+
+
+.container_card{
+    border-radius: 12px;
+    background-color: var(--card-background);
+    width: 350px;
+}
+
+img{
+    width: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+  
+
+
+.filter{
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color:hsla(277, 85%, 26%, 0.575); ;
+}
+
+
+.container_text-principal{
+    color: white;
+    font-size: 1.9rem;
+    font-family: "inter";
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.container_text-principal > span{
+    color: var(--acent);
+}
+
+.container_text-description{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "inter";
+    line-height: 26px;
+}
+
+.container_stadistics{
+    color: white;
+    font-family: "inter";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.stadistic_text{
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: -13px;
+}
+
+.container_stadistics-number{
+    margin-top: 50px;
+    font-family: "inter";
+}
